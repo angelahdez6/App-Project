@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body class="mainBody">
+    <h1>InstaSpot</h1>
+
+        <div class="mainBorder">
+        <a href="https://login.herecomesthebus.com/Authenticate.aspx?ReturnUrl=%2f">
+        <button style="background-color: white;color:rgb(113, 78, 241);border: radius 5px">Home</button>
+        </a>
+    </div>
+
+    <body style="background-color:#90d3ff;"></body>
+  
+</body> 
+</html>
+<script src="code.js"></script>
+
+
+
+10/13/22
+
+CSS
+
+ .dropbt {
+    background-color: #c2bebc9a;
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+    border: 9px;
+    border-color: black;
+    cursor: pointer;
+    border-radius: 200px;
+    width: 1000px;
+    /*insert center here*/
+    text-align: center;
+    transform: translate(0%, 100%);
+  }
+
+HTML 
+
+    <div class= "dropbt"> 
+        <button class= "dropbt">Next</button>
+    </div>
