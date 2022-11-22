@@ -32,14 +32,19 @@
       <a href="https://www.google.com/maps/@29.9196529,-95.4463348,15z/data=!5m1!1e1/" target="_blank">Live Traffic Map</a>
   </div>
  <div class = "container">
-  <button type= "sumbit" class = "btn"> Submit </button>
-  <div class = "popup">
+  <button type= "sumbit" class = "btn" onclick= "openPopup()" > Submit </button>
+  <div class = "popup" id="popup">
    <img src= "tick.jpg">
    <h2>Thank You!</h2>
    <p>Your feedback has been successfully submitted. Thanks!</p>
-   <button type= "button">OK</button>
+   <button type= "button" onclick= "closePopup()">OK</button>
   
+ <script>
+  let popup = document.getElementById("popup");
  
+  function openPopup(){
+}
+   </script>
 </body>
  
 </html>
