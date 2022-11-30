@@ -112,13 +112,15 @@
    position: absolute;
    top: 0%;
    left: 50%;
-   transform: translate(-50%, -50%);tr
+   transform: translate(-50%, -50%);
    text-align: center;
    padding: 0 30px 30px;
    color: #333;
    visibility: hidden;
    transition: transform 0.4s, top 0.4s;
-  
+
+ }
+ 
 .openpopup{
   visibility: visible;
   top: 50%;
