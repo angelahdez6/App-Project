@@ -22,42 +22,69 @@
         <a href="https://www.google.com/maps/@29.9182766,-95.4236928,15z" target="_blank">Find My Vehicle</a>
         <a href="https://login.herecomesthebus.com/Authenticate.aspx?ReturnUrl=%2f" target="_blank">Find My School
           Bus</a>
- 
+
       </div>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
       <marquee><img src="Traffic News 1.jpg" width= 500 height=250> <img src="Traffic News 2.jpg" width = 500 heigth = 90> <img src="Traffuc News 3.jpg" width = 500 heigth = 200> <img src="Traffic news 5.jpg" width = 500 heigth 200></marquee>
-   
+
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
     <div class="dropdownFormat">
        <div class = "dropdown">
          <button class="dropbtn">Find Out about</button>
          <div class="dropdown-content">
       <a href="https://www.google.com/maps/@29.9196529,-95.4463348,15z/data=!5m1!1e1/" target="_blank">Live Traffic Map</a>
   </div>
- <div class = "container">
-  <button type= "sumbit" class = "btn" onclick= "openPopup()" > Submit </button>
-  <div class = "popup" id="popup">
-   <img src= "tick.jpg">
-   <h2>Thank You!</h2>
-   <p>Your feedback has been successfully submitted. Thanks!</p>
-   <button type= "button" onclick= "closePopup()">OK</button>
-  
- <script>
-  let popup = document.getElementById("popup");
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+</style>
+<body>
  
-  function openPopup(){
-   popup.classList. add("open-popup");
-  }
-  function closePopup(){
-   popup.classList.remove("open-popup");
-   
+<button onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;block&#39;" style="width:auto;">Login</button>
+ 
+<div id="id01" class="modal">
+ 
+  <form class="modal-content animate" action="file:///C:/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;none&#39;" class="close" title="Close Modal">�</span>
+    </div>
+ 
+    <div class="container">
+      <label for="uname"><b>User</b></label>
+      <input type="text" placeholder="Enter User" name="uname" required="">
+ 
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required="">
+     
+       
+      <button type="submit"><h1 style="color: rgb(255, 255, 255)">Login</h1></button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="color: rgb(0, 0, 0)"> Remember Me
+      </label>
+    </div>
+ 
+    <div class="container" style="background-color:#616161">
+      <button type="button" onclick="document.getElementById(&#39;id01&#39;).style.display=&#39;none&#39;" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="file:///C:/Users/hecto/Untitled-3.html#">password</a></span>
+    </div>
+  </form>
+</div>
+ 
+<script>
+ 
+var modal = document.getElementById('id01');
+ 
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
+</script>
+
    </script>
-  
-   <h2> Feature Overview </h2>
-   <h2> Reservations </h2>
-   <p> Reserve a spot and manage your reservations anytime and on the go. </p>
-   <h2> Facilities </h2>
-   <p> Access facility information, including maps, directions and latest updates. </p>
 </body>
  
 </html>
-
